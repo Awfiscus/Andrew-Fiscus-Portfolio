@@ -2,3 +2,11 @@
   color: aquamarine;
   background-color: darkblue;
 }
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+p {
+  float: left;
+}
