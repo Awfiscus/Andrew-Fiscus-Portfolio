@@ -19,3 +19,15 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.card {
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(243, 243, 233);
+}
+
+#contactCard {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
