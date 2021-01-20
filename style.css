@@ -1,17 +1,21 @@
+/* styling for the profile container */
 #profile {
   color: aquamarine;
   background-color: darkblue;
   margin-bottom: 40px;
 }
 
+/* styling to get navbar links to line up to the right */
 .navbar-nav {
   margin-left: auto;
 }
 
+/* attempts to center paragraphs around image */
 #bio {
   display: inline;
 }
 
+/* styles for background image */
 body {
   background: url("https://images.unsplash.com/photo-1547531455-c20b677ded4b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60")
     no-repeat center center fixed;
@@ -21,24 +25,29 @@ body {
   background-size: cover;
 }
 
+/* base stylings for all cards across all html files */
 .card {
   margin-left: 20px;
   margin-top: 20px;
+  margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: rgb(243, 243, 233);
 }
 
+/* spacing for the card on the contact.html */
 #contactCard {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
+/* spacing for images on the portfolio.html */
 .img-thumbnail {
   margin-left: 20px;
   margin-top: 20px;
 }
 
+/* styling for the footer on all three html files */
 #footer {
   display: flex;
   justify-content: space-around;
