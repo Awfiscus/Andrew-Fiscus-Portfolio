@@ -1,6 +1,7 @@
 #profile {
   color: aquamarine;
   background-color: darkblue;
+  margin-bottom: 40px;
 }
 
 .navbar-nav {
@@ -38,3 +39,7 @@ body {
   margin-top: 20px;
 }
 
+#footer {
+  display: flex;
+  justify-content: space-around;
+}
