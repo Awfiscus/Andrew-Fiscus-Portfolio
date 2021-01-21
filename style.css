@@ -2,7 +2,13 @@
 #profile {
   color: aquamarine;
   background-color: darkblue;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+/* styling for Bio Picture */
+#bioPic {
+  margin-bottom: 20px;
 }
 
 /* styling to get navbar links to line up to the right */
@@ -41,9 +47,14 @@ body {
   margin-bottom: 15px;
 }
 
+/* spacing and placement for images in gallery */
+#gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* spacing for images on the portfolio.html */
 .img-thumbnail {
-  margin-left: 20px;
   margin-top: 20px;
 }
 
