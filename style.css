@@ -1,7 +1,7 @@
 /* styling for the profile container */
 #profile {
-  color: aquamarine;
-  background-color: darkblue;
+  color: #ffddd2;
+  background-color: #4895ef;
   margin-top: 30px;
   margin-bottom: 80px;
 }
@@ -14,6 +14,10 @@
 /* styling to get navbar links to line up to the right */
 .navbar-nav {
   margin-left: auto;
+}
+
+#mainNav {
+  background-color: #9bf6ff;
 }
 
 /* attempts to center paragraphs around image */
