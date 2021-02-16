@@ -17,7 +17,7 @@
 }
 
 #mainNav {
-  background-color: #9bf6ff;
+  background-color: #001845;
 }
 
 /* attempts to center paragraphs around image */
@@ -27,22 +27,29 @@
 
 /* styles for background image */
 body {
-  background: url("https://images.unsplash.com/photo-1547531455-c20b677ded4b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60")
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #eaf4f4;
 }
 
 /* base stylings for all cards across all html files */
-.card {
+.slide {
   margin-left: 20px;
   margin-top: 20px;
+  margin-right: 20px;
   margin-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
   background-color: rgb(243, 243, 233);
+}
+
+.card {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(243, 243, 233);
+  display: block;
 }
 
 /* spacing for the card on the contact.html */
@@ -51,19 +58,53 @@ body {
   margin-bottom: 15px;
 }
 
+#carouselExampleCaptions {
+  width: 65%;
+  margin: auto;
+  margin-top: 20px;
+}
+
 /* spacing and placement for images in gallery */
 #gallery {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: auto;
 }
 /* spacing for images on the portfolio.html */
 .img-thumbnail {
   margin-top: 20px;
 }
 
+.portfolioImg {
+  max-width: fit-content;
+}
+
+.card-img-top {
+  margin-top: 10px;
+  max-width: fit-content;
+  float: left;
+  display: block;
+}
+
+#prevBtn {
+  background-color: transparent;
+  border: transparent;
+}
+
+#nextBtn {
+  background-color: transparent;
+  border: transparent;
+}
+
 /* styling for the footer on all three html files */
 #footer {
   display: flex;
   justify-content: space-around;
+}
+
+@media only screen and (min-width: 600px) {
+  #gallery {
+    display: flex;
+  }
 }
