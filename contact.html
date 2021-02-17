@@ -11,26 +11,26 @@
 <body>
     <!-- Navbar that links to all three HTML files -->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Andrew Fiscus</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>  
-            </ul>
-          </div>
+      <div class="container-fluid" id="navContainer">
+        <a class="navbar-brand" href="#" style="color: white;">Andrew Fiscus</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="background-color: white;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html" style="color: white;">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html" style="color: white;">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: white;">About</a>
+            </li>  
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!-- Contact Card -->
       <section>
         <div class="card" style="width: 40%;">
@@ -41,20 +41,20 @@
             <!-- Container for Name info -->
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Please Type Full Name">
+            <input type="email" class="form-control" id="nameInput" placeholder="Please Type Full Name">
           </div>
           <!-- Container for Name Email Address -->
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
           </div>
           <!-- Container for Message -->
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type Your Message Here"></textarea>
+            <textarea class="form-control" id="textInput" rows="3" placeholder="Type Your Message Here"></textarea>
           </div>
           <!-- Submit Button -->
-          <button class="btn btn-primary" type="submit">Submit</button>
+          <button class="btn btn-primary" onclick="sendEmail(); return false">Submit</button>
           </div>
         </div>
       </section>

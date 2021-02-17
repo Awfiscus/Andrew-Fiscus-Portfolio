@@ -1,9 +1,10 @@
 /* styling for the profile container */
 #profile {
-  color: #ffddd2;
-  background-color: #4895ef;
+  color: #000000;
+  background-color: #efe5e5e5;
   margin-top: 30px;
   margin-bottom: 80px;
+  padding: 20px;
 }
 
 /* styling for Bio Picture */

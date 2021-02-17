@@ -1,9 +1,11 @@
 
 const github = $("#github")
 const linkedin = $("#linkedin")
+const resume = $("#resume")
 const project1 = $("#smileBtn")
 const project2 = $("#weatherBtn")
 const project3 = $("#workdayBtn")
+const contactBtn = $("#contactBtn")
 
 github.on("click", function () {
     window.open("https://github.com/Awfiscus", "_blank")
@@ -11,6 +13,10 @@ github.on("click", function () {
 
 linkedin.on("click", function () {
     window.open("https://www.linkedin.com/in/andrew-fiscus-1bb3a4206/", "_blank")
+})
+
+resume.on("click", function () {
+    window.open("https://docs.google.com/document/d/1H57__vOj2dL9kXxX8z83TjkEfZOeng3BmfeRkUClHkQ/edit?usp=sharing", "_blank")
 })
 
 project1.on("click", function () {
@@ -24,3 +30,14 @@ project2.on("click", function () {
 project3.on("click", function () {
     window.open("https://awfiscus.github.io/keep-your-workday-organized/", "_blank")
 })
+
+//contactBtn.on("click", sendEmail())
+
+//STILL WORKING ON THIS FUNCTIONALITY
+// function sendEmail () {
+//     let link = "mailto:awfiscus@comcast.net"
+//              + "&subject=" + ($("#nameinput").value)
+//              + "&body=" + ($("#emailInput").value) + ($("#textInput").value);
+             
+//     window.location.href = link
+// }
