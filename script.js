@@ -5,6 +5,7 @@ const project1 = $("#smileBtn");
 const project2 = $("#weatherBtn");
 const project3 = $("#workdayBtn");
 const project4 = $("#burgerBtn");
+const project5 = $("#horoBtn");
 const contactBtn = $("#contactBtn");
 
 github.on("click", function () {
@@ -42,6 +43,10 @@ project3.on("click", function () {
 
 project4.on("click", function () {
   window.open("https://murmuring-badlands-01547.herokuapp.com/", "_blank");
+});
+
+project5.on("click", function () {
+  window.open("https://damp-mountain-65863.herokuapp.com/login", "_blank");
 });
 
 //contactBtn.on("click", sendEmail())
